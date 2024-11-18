@@ -7,13 +7,13 @@
   // https://firebase.google.com/docs/web/setup#available-libraries
 
   // Your web app's Firebase configuration
-  const firebaseConfig = {
-    apiKey: "AIzaSyBB8ty87sh84l1xDmeXGJOhKqEdxXRv4wU",
-    authDomain: "codecamptst.firebaseapp.com",
-    projectId: "codecamptst",
-    storageBucket: "codecamptst.appspot.com",
-    messagingSenderId: "952163116209",
-    appId: "1:952163116209:web:a0eb695ba38b60477aae90"
+ const firebaseConfig = {
+    apiKey: "AIzaSyAsMxFfHdVDE4fUUx101IHaUD2xo_4Ucwc",
+    authDomain: "dash-3a059.firebaseapp.com",
+    projectId: "dash-3a059",
+    storageBucket: "dash-3a059.firebasestorage.app",
+    messagingSenderId: "614397319816",
+    appId: "1:614397319816:web:824d62253039357e89dd3d"
   };
 
   // Initialize Firebase
