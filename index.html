@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Biz-Dash</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    
+<div class="splash">
+    <img src="imgs/bd logo.png" alt="logo" class="logo">
+    <div class="sofname">
+        <span class="biz">Biz</span>-<span class="dash">Dash</span>
+
+        <div class="motto">Manage your bussiness with ease!</div>
+    </div>
+    
+<div class="loader">
+        <img src="imgs/loading.png" alt="" class="loader-img">
+    </div>
+</div>
+
+
+<div class="loginform">
+    <h1 class="ltxt">Log In</h1>
+<div class="infos">
+        <div class="hold"> <label class="cl">Email</label><input type="text" id="username"></div> 
+        <div class="hold">  <label class="cl" >Password</label> <input type="text" id="password"></div> 
+       
+        <button id="login" class="logbtn" onclick="tempcodelog()">Login</button>
+
+        <div class="hold">Don't have an Account ? <button onclick="switcher()" class="sts">Sign Up</button></div>
+</div>
+
+</div>
+
+
+<div class="signupform">
+        <h1 class="ltxt">Sign Up</h1>
+    <div class="infos">
+            <div class="hold">  <label class="cl">Admistrators Name</label><input type="text" id="adname"></div> 
+            <div class="hold"> <label class="cl">Email</label><input type="text" id="username"></div> 
+         <div class="hold">  <label class="cl">Password</label> <input type="text" id="password"></div> 
+         <div class="hold"> <label class="cl">Country</label> <select class="selcountry">
+             <option value="0"></option>
+             <option value="1">USA</option>
+             <option value="2">Ghana</option>
+             <option value="3">England</option>
+             <option value="4">India</option>
+             <option value="5">Nigeria</option>
+             <option value="6">China</option>
+             <option value="7">South Africa</option>
+             <option value="8">Ethiopia</option>
+             <option value="9">Germany</option>
+             <option value="10">Kenya</option>
+             <option value="11">Uganda</option>
+             <option value="12">Other</option>
+         </select></div> 
+         <div class="prosel">  <label class="cl">Profile Picture</label><input type="file" id="image"></div> 
+        
+           
+            <button id="create" class="logbtn">Sign Up</button>
+    
+            <div class="hold">Already have an Account ? <button onclick="switcher2()" class="sts">Log In</button></div>
+    </div>
+    
+    </div>
+<script src="js/log.js" type="module"></script>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
